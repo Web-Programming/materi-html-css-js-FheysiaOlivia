@@ -36,3 +36,7 @@ main{
    border-radius: 10px;
    margin-bottom: 30px;
 }
+table img:hover{
+    width : 300px
+}
+
