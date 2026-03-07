@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /*Ini Internal CSS*/
+        /* Selector Tag HTML*/
+        body {
+            background-color: beige;
+            text-align: center;
+            color: #d38585;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h2{
+            text-decoration:line-through;
+        }
+        div{
+            border-style: dotted;
+        }
+        /* Selector Class*/
+        .border-merah{
+            border-color: red;
+        }
+        .border-pink{
+            border-color: pink;
+        }
+        .border-hijau{
+            border-color: green;
+        }
+        .border-spesial{
+            border: 5px #85d3ba dashed;
+        }
+    
+        
+    </style>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+    <h1 style="color: steelblue; font-size: 15pt;">Mengenal CSS Inline</h1>
+    <h1 style="color: rgb(70, 180, 121); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ini Text Berwarna Hijau</h1>
+    <h2 style="border-style: solid;" class="border-hijau">Mengenal Selector Pada CSS</h2>
+    <div class="border-merah">
+        Hallo, apa kabar mahasiswa kelas SI4B
+    </div>
+    <div class="border-hijau">
+        Kita bahas selector lainnya
+    </div>
+    <div class=" border-pink border-spesial">
+        Kita bahas selector lainnya...
+    </div>
+    <div class="border-spesial">class spesial</div>
+</body>
+</html>

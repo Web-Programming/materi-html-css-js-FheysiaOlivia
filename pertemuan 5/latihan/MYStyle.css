@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    color: rgb(70, 67, 67);
+    background-image: linear-gradient(to bottom right, rgb(232, 232, 214), rgb(207, 215, 191) );
+}
+
+header{
+    background-color: rgb(84, 20, 20);
+    color: rgb(255, 255, 255);
+    padding: 20px 0;/*mengatur jarak tepi atas dan bawah 20px, kiri dan kanan 0px*/
+    text-align: center;
+}
+
+header img{
+    border-radius: 10px;
+    max-width:fit-content;
+    height: auto;
+}
+nav{
+    padding: 10px 0;
+}
+nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: blue;
+    color: aliceblue;
+    border-bottom: 2px solid black;
+}
+main{
+   padding: 20px;
+   border-radius: 10px;
+   margin-bottom: 30px;
+}
